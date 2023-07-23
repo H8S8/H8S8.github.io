@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <h1>About Me</h1>
+    <h1>About</h1>
   </body>
   
 </html>
