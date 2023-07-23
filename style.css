@@ -10,10 +10,10 @@ h1{
 
 .navbar a{
   font-family: "Arial";
-  float: left;
+  float: Right;
   display: block;
-  color: #f2f2f2;
+  color: #000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1% 1%;
   text-decoration: none;
 }
