@@ -6,6 +6,9 @@ h1{
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.navbar a{
   font-family: "Arial";
-  font-style: bold;
+  font-style: "bold";
 }
