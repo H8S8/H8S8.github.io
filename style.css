@@ -18,6 +18,7 @@ nav a{
   border-radius: 50%;
   text-decoration: none;
   float: right;
+  background-color: #bbb;
 }
 
 /* Change the color of links on hover */
