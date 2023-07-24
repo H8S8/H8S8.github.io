@@ -28,6 +28,10 @@ nav a:hover {
   color: black;
 }
 
+.pagetitle{
+  top: 20%;
+}
+
 /* Add a color to the active/current link */
 nav a:active {
   background-color: #04AA6D;
