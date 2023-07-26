@@ -48,3 +48,11 @@ nav a:active {
   font-family: Arial;
   border: solid white;
 }
+
+nav ul li{
+  display: inline;
+}
+
+h1{
+  float: left;
+}
