@@ -53,6 +53,6 @@ nav ul li{
   display: inline;
 }
 
-h1{
+ul li h1{
   float: left;
 }
