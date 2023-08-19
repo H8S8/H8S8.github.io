@@ -1,6 +1,7 @@
 body{
   font-family: "Arial";
   margin: 0;
+  background: url(marbled.jpg) center center cover no-repeat fixed;
 }
 
 nav{
