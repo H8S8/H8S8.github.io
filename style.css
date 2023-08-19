@@ -13,14 +13,11 @@ nav{
 
 nav a{
   font-family: "Arial";
-  display: block;
   color: #000;
   padding: 1%;
   margin: 1%;
-  border-radius: 10%;
   text-decoration: none;
   float: right;
-  background-color: #bbb;
 }
 
 # hline{
