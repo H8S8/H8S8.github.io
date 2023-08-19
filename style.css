@@ -23,6 +23,10 @@ nav a{
   background-color: #bbb;
 }
 
+# hline{
+  color: #90453C;
+}
+
 /* Change the color of links on hover */
 nav a:hover {
   background-color: #ddd;
