@@ -1,37 +1,66 @@
 body{
   font-family: "Arial";
   margin: 0;
-  background-image: url("marbled.jpg");
+  background-image: url("MirrorMarble.jpg");
+  background-size: cover;
 }
 
 .navbar{
   position: fixed;
+  margin-left: 20px;
   top: 0;
-  width: 180px;
-  height: 100%;
-  background-color: #4F5166;
+  width: 200px;
+  height: 90%;
+  background-color: #7F2B2C;
 }
 
-.navbar a{
+.navbar h3{
   font-family: "Arial";
   color: #C3D4CC;
   padding: 10%;
   margin: 1%;
   text-decoration: none;
+  text-transform: uppercase;
   display: block;
 }
 
-.navbar ul{
+.wrapper .navbar ul{
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-h1{
+.wrapper .navbar ul li{
+  border-bottom: 1px solid #C2A543;
+}
+
+.wrapper .navbar ul li a{
+  font-family: "Arial";
+  color: #C3D4CC;
+  padding: 10%;
+  margin: 1%;
+  text-decoration: none;
   text-transform: uppercase;
-  font-size: 50pt;
-  color:#C2A543;
-  -webkit-text-stroke: #4F5166;
+  display: block;
+}
+
+.wrapper .navbar .social_media{
+  position: absolute;
+  bottom: 0;
+  margin-left: 50%;
+  margin-bottom: 10px;
+  display: flex;
+  transform: translateX(-50%);
+}
+
+.wrapper .navbar .social_media a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin: 0 5px;
+  border-radius: 10px;
 }
 
 /* Change the color of links on hover */
@@ -41,31 +70,34 @@ h1{
 }
 
 .wrapper .main_content{
-  margin-left: 170px;
-  padding-left: 5%;
-  width: 100%;
+  margin-left: 220px;
+  margin-right: 20px;
+  margin-top: 40px;
+  padding-left: 20px;
 }
 
 
+.main_content h1{
+  text-transform: uppercase;
+  font-size: 50pt;
+  color:#C3D4CC;
+  background: #7F2B2C;
+}
 
 #hline{
   color: #90453C;
 }
 
-.pagetitle{
-  top: 20%;
-}
-
-/* Add a color to the active/current link */
-nav a:active {
-  background-color: #04AA6D;
-  color: white;
-}
-
 .projectbox{
   font-family: Arial;
-  margin: 10%;
-  background-color: CornflowerBlue;
+  margin-bottom: 40px;
+  background: #4F5166;
+  width: 100%;
+}
+
+.projectbox h2{
+  text-transform: uppercase;
+  color:#C3D4CC
 }
 
 .request{
