@@ -76,7 +76,6 @@ body{
   padding-left: 20px;
 }
 
-
 .main_content h1{
   text-transform: uppercase;
   font-size: 50pt;
@@ -95,12 +94,31 @@ body{
   width: 100%;
 }
 
-.projectbox h2{
+.projectbox .imgbox{
+  width: 25%;
+}
+
+.projectbox .imgbox img{
+  width: 100%;
+}
+
+.projectbox td{
+  padding:20px;
+  vertical-align: top;
+  color:#C3D4CC;
+  font-size: larger;
+}
+
+.projectbox td h2{
   text-transform: uppercase;
-  color:#C3D4CC
+  margin-bottom: 0;
+}
+
+.projectbox td h3{
+  margin-top: 0;
 }
 
 .request{
   font-family: Arial;
-  border: solid white;
+  color: #C2A543;
 }
