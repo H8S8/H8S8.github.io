@@ -1,3 +1,4 @@
-fetch('nav.html')
-.then(response = response.text())
-.then()
+function selectTab(id){
+    var button = document.getElementById(id);
+    button.className = "selected";
+}
