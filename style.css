@@ -44,6 +44,17 @@ body{
   display: block;
 }
 
+/*.wrapper .navbar ul li :visited{ might need to change this
+  font-family: "Arial";
+  background-color: #3C3D40;
+  color: #C2A543;
+  padding: 10%;
+  margin: 1%;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+}*/
+
 .wrapper .navbar .social_media{
   position: absolute;
   bottom: 0;
