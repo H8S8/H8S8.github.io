@@ -34,7 +34,7 @@ body{
   border-bottom: 1px solid #C2A543;
 }
 
-.wrapper .navbar ul li a{
+.notCurrent{
   font-family: "Arial";
   color: #C3D4CC;
   padding: 10%;
@@ -44,7 +44,7 @@ body{
   display: block;
 }
 
-.navbar a .active{/* not working as it should TEST TOMORROW*/
+.current{/* not working as it should TEST TOMORROW*/
   font-family: "Arial";
   background-color: #3C3D40;
   color: #C2A543;
@@ -56,7 +56,7 @@ body{
 }
 
 /* Change the color of links on hover */
-.navbar a:hover {
+.navbar a:hover{
   background-color: #3C3D40;
   color: #C2A543;
 }
@@ -92,10 +92,6 @@ body{
   font-size: 50pt;
   color:#C3D4CC;
   background: #7F2B2C;
-}
-
-#hline{
-  color: #90453C;
 }
 
 .projectbox{
