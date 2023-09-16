@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400&display=swap');
+
 body{
-  font-family: "Arial";
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 11pt;
   margin: 0;
-  background-image: url("MirrorMarble.jpg");
+  background-image: url("background.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .navbar{
@@ -11,17 +15,19 @@ body{
   top: 0;
   width: 200px;
   height: 90%;
-  background-color: #7F2B2C;
+  background-color: #353535;
 }
 
 .navbar h3{
-  font-family: "Arial";
-  color: #C3D4CC;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18pt;
+  color: #b3e3e9;
   padding: 10%;
   margin: 1%;
   text-decoration: none;
   text-transform: uppercase;
   display: block;
+  text-align: center;
 }
 
 .wrapper .navbar ul{
@@ -31,12 +37,12 @@ body{
 }
 
 .wrapper .navbar ul li{
-  border-bottom: 1px solid #C2A543;
+  border-bottom: 1px solid #b3e3e9;
 }
 
 .notCurrent{
-  font-family: "Arial";
-  color: #C3D4CC;
+  font-family: 'Fira Sans', sans-serif;
+  color: #b3e3e9;
   padding: 10%;
   margin: 1%;
   text-decoration: none;
@@ -44,10 +50,10 @@ body{
   display: block;
 }
 
-.current{/* not working as it should TEST TOMORROW*/
-  font-family: "Arial";
-  background-color: #3C3D40;
-  color: #C2A543;
+.current{
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #b3e3e9;
+  color: #353535;
   padding: 10%;
   margin: 1%;
   text-decoration: none;
@@ -56,9 +62,26 @@ body{
 }
 
 /* Change the color of links on hover */
-.navbar a:hover{
-  background-color: #3C3D40;
-  color: #C2A543;
+.navbar ul li a:hover{
+  background-color: #b3e3e9;
+  color: #353535;
+}
+
+.social_media a{
+  color: #b3e3e9;
+}
+
+.social_media a:hover{
+  background-color: #b3e3e9;
+  color: #353535;
+}
+
+.wrapper .navbar .contact{ /*remove?*/
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 75px;
+  margin-left: 11%;
+  text-transform: capitalize;
 }
 
 .wrapper .navbar .social_media{
@@ -90,14 +113,15 @@ body{
 .main_content h1{
   text-transform: uppercase;
   font-size: 50pt;
-  color:#C3D4CC;
-  background: #7F2B2C;
+  color:#b3e3e9;
+  background: #353535;
+  padding-left: 15px;
 }
 
 .projectbox{
-  font-family: Arial;
+  font-family: 'Fira Sans', sans-serif;
   margin-bottom: 40px;
-  background: #4F5166;
+  background: #b3e3e9;
   width: 100%;
 }
 
@@ -109,14 +133,10 @@ body{
   width: 100%;
 }
 
-#inception{
-  border: 2px solid #C3D4CC;
-}
-
 .projectbox td{
   padding:20px;
   vertical-align: top;
-  color:#C3D4CC;
+  color:#353535;
   font-size: larger;
 }
 
@@ -131,11 +151,11 @@ body{
 }
 
 .request{
-  font-family: Arial;
-  color: #C2A543;
+  font-family: 'Fira Sans', sans-serif;
+  color: #7d1e23;
 }
 
 #pdf{
   width: 100%;
-  height: 550px;
+  height: 750px;
 }
