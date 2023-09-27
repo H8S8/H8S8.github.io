@@ -2,7 +2,7 @@
 
 body{
   font-family: 'Fira Sans', sans-serif;
-  font-size: 11pt;
+  font-size: 14pt;
   margin: 0;
   background-image: url("background.jpg");
   background-size: cover;
@@ -13,7 +13,7 @@ body{
   position: fixed;
   margin-left: 20px;
   top: 0;
-  width: 200px;
+  width: 245px;
   height: 90%;
   background-color: #353535;
   border-bottom-left-radius: 10px;
@@ -22,7 +22,7 @@ body{
 
 .navbar h3{
   font-family: 'Fira Sans', sans-serif;
-  font-size: 18pt;
+  font-size: 25pt;
   color: #b3e3e9;
   padding: 10%;
   margin: 1%;
@@ -108,7 +108,7 @@ body{
 }
 
 .wrapper .main_content{
-  margin-left: 220px;
+  margin-left: 265px;
   margin-right: 20px;
   margin-top: 40px;
   padding-left: 20px;
@@ -116,7 +116,7 @@ body{
 
 .main_content h1{
   text-transform: uppercase;
-  font-size: 50pt;
+  font-size: 60pt;
   color:#b3e3e9;
   background: #353535;
   padding-left: 15px;
@@ -132,7 +132,7 @@ body{
 }
 
 .projectbox .imgbox{
-  width: 25%;
+  width: 30%;
 }
 
 .projectbox .imgbox img{
